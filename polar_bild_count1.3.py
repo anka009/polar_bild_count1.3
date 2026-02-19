@@ -26,7 +26,7 @@ st.sidebar.header("Hue Ranges (OpenCV HSV)")
 red_max = st.sidebar.slider("Red max", 5, 15, 10)
 orange_low = st.sidebar.slider("Orange low", 8, 20, 12)
 orange_high = st.sidebar.slider("Orange high", 20, 40, 30)
-green_low = st.sidebar.slider("Green low", 30, 60, 40)
+green_low = st.sidebar.slider("Green low", 10, 60, 40)
 green_high = st.sidebar.slider("Green high", 60, 120, 90)
 
 st.sidebar.header("Object Filters")
